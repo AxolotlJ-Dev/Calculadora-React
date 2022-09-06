@@ -1,0 +1,74 @@
+body{ 
+   
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,37,148,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.Me{
+    display: block;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.Me p{
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.content{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora{
+    display: block;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 300px;
+    background-color: #fff;
+    
+}
+
+.filas{
+    display: flex;
+    margin: 5px;
+}
+
+
+.contact{
+    display: block;
+    line-height: 35px;
+    margin-top: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact p{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.contact a{
+    text-align: center;
+    color: #000000;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 600px){
+    .calculadora{
+        height: 500px;
+        width: 300px;
+        padding: 4px;
+    }
+}
+
